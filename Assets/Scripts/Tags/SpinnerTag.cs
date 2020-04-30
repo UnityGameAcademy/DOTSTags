@@ -3,5 +3,5 @@
 [GenerateAuthoringComponent]
 public struct SpinnerTag : IComponentData
 {
-   
+
 }

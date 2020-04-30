@@ -134,13 +134,14 @@ GameObject:
   - component: {fileID: 1601441397571979279}
   - component: {fileID: 1010390145505967317}
   - component: {fileID: 1010390145505967316}
+  - component: {fileID: 1010390145505967318}
   m_Layer: 0
   m_Name: SpaceFighter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1010390145505967316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,6 +176,18 @@ MonoBehaviour:
   downKey: 274
   rightKey: 275
   leftKey: 276
+--- !u!114 &1010390145505967318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010390145505967315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee275df7c054b450cacb77f0e3a65616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &1601441397571979279
 MeshRenderer:
   m_ObjectHideFlags: 0

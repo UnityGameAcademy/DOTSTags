@@ -12,8 +12,8 @@ public class SpinnerSystem : SystemBase
         float deltaTime = Time.DeltaTime;
 
         Entities.
+            WithAll<SpinnerTag>().
             WithNone<PlayerTag>().
-            WithAny<SpinnerTag>().
             ForEach((ref Rotation rot, in MoveData moveData) =>
             {
                 quaternion normalizedRot = math.normalize(rot.Value);
